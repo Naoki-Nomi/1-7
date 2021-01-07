@@ -4,3 +4,36 @@
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: gray;
+}
+
+main {
+  width: 840px;
+  margin: 20px auto 50px;
+}
+
+.box {
+  padding: 30px 0;
+  border-bottom: 1px solid gray;
+}
+
+p {
+  color: gray
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: gray;
+}
+
+
